@@ -4,11 +4,10 @@ body {
     display: flex;
 }
 
+/* Adicione estilos para a classe sidebar */
 #sidebar {
-    width: 200px;
-    background-color: #333;
-    color: white;
-    padding: 20px;
+    border-right: 1px solid #ccc; /* Adicione uma borda à direita */
+    padding-right: 50px; /* Adicione espaçamento à direita */
 }
 
 #content {
@@ -18,7 +17,5 @@ body {
 
 #sidebar a {
     display: block;
-    color: white;
-    text-decoration: none;
-    margin-bottom: 10px;
+    margin-bottom: 10px; /* Adicione espaçamento entre os links */
 }

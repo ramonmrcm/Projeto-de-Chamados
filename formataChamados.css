@@ -1,0 +1,24 @@
+/* style.css */
+
+body {
+    display: flex;
+}
+
+#sidebar {
+    width: 200px;
+    background-color: #333;
+    color: white;
+    padding: 20px;
+}
+
+#content {
+    flex-grow: 1;
+    padding: 20px;
+}
+
+#sidebar a {
+    display: block;
+    color: white;
+    text-decoration: none;
+    margin-bottom: 10px;
+}

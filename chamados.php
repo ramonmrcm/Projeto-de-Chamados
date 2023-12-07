@@ -44,8 +44,8 @@ $totalPaginas = ceil($totalChamados / $chamadosPorPagina);
 <body>
 
     <div id="sidebar">
-        <a href="alterarSenha.php">Alterar Senha</a>
-        <a href="logout.php">Logout</a>
+        <a href="alterarSenha.php" class="button">Alterar Senha</a>
+        <a href="logout.php" class="button">Logout</a>
     </div>
 
     <div id="content">

@@ -126,3 +126,22 @@ p {
 .pagination a:hover {
     background-color: #eee;
 }
+/* Adapte o estilo do botão se necessário */
+.button-processar {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    background-color: #007bff;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.button-processar:hover {
+    background-color: #0056b3;
+}

@@ -1,21 +1,32 @@
-/* style.css */
-
 body {
     display: flex;
 }
 
-/* Adicione estilos para a classe sidebar */
 #sidebar {
-    border-right: 1px solid #ccc; /* Adicione uma borda à direita */
-    padding-right: 50px; /* Adicione espaçamento à direita */
-}
-
-#content {
-    flex-grow: 1;
-    padding: 20px;
+    border-right: 1px solid #ccc;
+    padding-right: 50px;
 }
 
 #sidebar a {
     display: block;
     margin-bottom: 10px; /* Adicione espaçamento entre os links */
+    text-decoration: none;
+}
+
+/* Adicione estilos para a classe button */
+#sidebar a.button {
+    display: inline-block;
+    padding: 10px 15px;
+    background-color: #e74c3c;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    margin-bottom: 20px; /* Adicione espaçamento entre os botões */
+}
+
+#sidebar a.button:hover {
+    background-color: #c0392b;
 }
